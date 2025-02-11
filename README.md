@@ -17,6 +17,12 @@ I'm a 3rd-year **Richfield collage Institute of Technology** student pursuing a 
 
 ### 🏆 Featured Projects
 
+#### [🔍 E-jobFinder](https://github.com/Gift-Mpofu/E-jobFinder.git)  
+AI-driven tool that scans CVs and matches them to job listings with a relevance score.  
+- **Tech Stack:** Python, NLP (Cohere API), Node.js  
+- **Highlights:** ATS-style scanning, match rate scoring, and CV improvement suggestions. 
+
+
 #### [📊 Data Analytics Dashboard](https://github.com/gift/data-analytics-dashboard)
 An interactive dashboard for analyzing business metrics and visualizing key insights.  
 - **Tech Stack:** Python, Tableau, PostgreSQL  
