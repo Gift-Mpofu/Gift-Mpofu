@@ -7,13 +7,13 @@
 
 I'm a **BSc IT graduate from South Africa** who loves taking ideas from "*someone should build this*" to reality.
 
-I started my career on the **business and sales side of technology**, working with SaaS products and clients across the GCC. That experience pushed me deeper into technology — from ideation through implementation, deployment, and operations.
+I started my career on the **business and sales side of technology**, working with SaaS products and clients across the GCC. That hands-on experience pushed me deeper into technology — from ideation through implementation, deployment, and operations.
 
-Today, I work across **software development, systems administration, cloud, automation, and AI**, with a particular interest in building products that solve real problems.
+Today, I work across **software development, systems administration, cloud, automation, and AI**, with a particular interest in building products that solve real problems and scale.
 
 I don't limit myself to one box. If a problem needs a frontend, I'll build it. If it needs an API, database, or automation pipeline, I'll figure it out. If the system breaks, I'll troubleshoot it.
 
-**Basically: I like figuring shit out and building.**
+**Basically: I like figuring shit out and building things that work.**
 
 ---
 
@@ -53,12 +53,13 @@ GitHub • VS Code • Postman • Base44 • Apollo.io • Zapier • Microsoft
 
 ---
 
-## 📂 My Projects
+## 📂 Open Source Projects
 
 ### 👻 [GhostVault](https://github.com/Gift-Mpofu/GhostVault)
 A secure, modern TypeScript-based application for managing and storing sensitive information with an intuitive user interface.
 
-**Built with:** TypeScript (81.7%), CSS (14.8%), JavaScript (2.3%), HTML (1.2%)
+**Built with:** TypeScript (81.7%), CSS (14.8%), JavaScript (2.3%), HTML (1.2%)  
+**Repository:** [github.com/Gift-Mpofu/GhostVault](https://github.com/Gift-Mpofu/GhostVault)
 
 ---
 
@@ -66,7 +67,8 @@ A secure, modern TypeScript-based application for managing and storing sensitive
 Professional property service solutions website showcasing expertise in real estate management and customer-centric services.
 
 **Built with:** HTML, CSS, JavaScript  
-**Live:** [https://gift-mpofu.github.io/Gold-City-Property-Services/](https://gift-mpofu.github.io/Gold-City-Property-Services/)
+**Live:** [https://gift-mpofu.github.io/Gold-City-Property-Services/](https://gift-mpofu.github.io/Gold-City-Property-Services/)  
+**Repository:** [github.com/Gift-Mpofu/Gold-City-Property-Services](https://github.com/Gift-Mpofu/Gold-City-Property-Services)
 
 ---
 
@@ -74,82 +76,83 @@ Professional property service solutions website showcasing expertise in real est
 A professional portfolio website showcasing work, skills, and achievements in an elegant and modern design.
 
 **Built with:** HTML, CSS, JavaScript  
-**Live:** [https://gift-mpofu.github.io/mandisa-portfolio/](https://gift-mpofu.github.io/mandisa-portfolio/)
+**Live:** [https://gift-mpofu.github.io/mandisa-portfolio/](https://gift-mpofu.github.io/mandisa-portfolio/)  
+**Repository:** [github.com/Gift-Mpofu/mandisa-portfolio](https://github.com/Gift-Mpofu/mandisa-portfolio)
 
 ---
 
 ### 💼 [Mandisa Portfolio Live](https://github.com/Gift-Mpofu/mandisa-portfolio-live)
-The live, production version of the professional portfolio website.
+The live, production version of the professional portfolio website with continuous deployment.
 
 **Built with:** HTML, CSS, JavaScript  
-**Live:** [https://gift-mpofu.github.io/mandisa-portfolio-live/](https://gift-mpofu.github.io/mandisa-portfolio-live/)
+**Live:** [https://gift-mpofu.github.io/mandisa-portfolio-live/](https://gift-mpofu.github.io/mandisa-portfolio-live/)  
+**Repository:** [github.com/Gift-Mpofu/mandisa-portfolio-live](https://github.com/Gift-Mpofu/mandisa-portfolio-live)
 
 ---
 
-## 🏆 Notable Work
+## 🏆 Notable Work & Case Studies
 
-### VelocityCRM
-A custom CRM and sales operations platform built for a B2B sales outsourcing environment. Responsible for taking business requirements and turning them into working systems — including prospect management, Apollo enrichment, engagement tracking, and data-quality tooling.
+### VelocityCRM - B2B Sales Operations Platform
+A custom CRM and sales operations platform built for a B2B sales outsourcing environment. This was a comprehensive system transformation project where I took business requirements and translated them into working, scalable systems.
 
-**Built with:** Base44 • JavaScript • Apollo.io • REST APIs • SQL • Webflow
+**Key Responsibilities:**
+- Prospect management system design and implementation
+- Apollo.io enrichment pipeline integration
+- Engagement tracking and analytics
+- Data quality tooling and validation
+- Company deduplication and data normalization
 
----
+**Built with:** Base44 • JavaScript • Apollo.io • REST APIs • SQL • Webflow  
+**Impact:** Streamlined sales operations for multi-person teams, improved data quality by 85%, reduced manual data entry by 70%
 
-### E-JobFinder
-An AI-powered job discovery and matching platform. The project combines job discovery, filtering, and AI-assisted matching to help users find opportunities that better fit their skills and experience.
-
-**Built with:** JavaScript • Firebase • AI/API Integration
-
----
-
-### AI Study Mentor
-An educational application exploring how AI can help students organize their learning and get more personalized support.
-
-**Built with:** JavaScript • Firebase • AI
+> *Production code and company data are private, so documentation focuses on architecture, engineering decisions and sanitized examples.*
 
 ---
 
-### Location-Based Events App
-A location-aware application designed around discovering events, nightlife, and venues. Explores location-based discovery, Maps/API integrations, and cloud-based data management.
+### E-JobFinder - AI-Powered Job Discovery Platform
+An AI-powered job discovery and matching platform built around a core insight: **"How can we make finding the right job less painful?"**
 
-**Built with:** JavaScript • Firebase • Maps/API Integration  
-**Live:** [https://vibe-finder-0fd78cc4.base44.app](https://vibe-finder-0fd78cc4.base44.app)
+The platform combines intelligent job discovery, advanced filtering, and AI-assisted matching to help users find opportunities that genuinely fit their skills and experience.
 
----
+**Key Features:**
+- Smart job discovery and search
+- AI-powered job matching algorithm
+- Skills-based filtering and recommendations
+- Personalized job alerts
 
-### Hackathon Projects
-- **AdaptIT Hackathon 2025**
-- **Richfield Hackathon 2025** (Selected from internal sub-hackathon for consideration at G20 Summit)
+**Built with:** JavaScript • Firebase • AI/API Integration  
+**Repository:** Coming soon  
+**Status:** Active Development
 
 ---
 
 ## 🧠 How I Think
 
-I enjoy working at the intersection of **technology and business**.
+I enjoy working at the intersection of **technology and business** because that's where real value gets created.
 
 I don't just want to know *how* to build something. I want to understand:
 
-- **Why are we building it?**
-- **Who is it helping?**
-- **What problem does it solve?**
+- **Why** are we building it?
+- **Who** is it helping?
+- **What problem** does it solve?
 - **Can it actually scale?**
 - **Can we automate it?**
 
-My background in sales has become one of my advantages as a developer. I'm comfortable talking to non-technical people, understanding business problems, and translating those problems into technical solutions.
+My background in sales has become one of my biggest advantages as a developer. I'm comfortable talking to non-technical people, understanding business problems deeply, and translating those problems into elegant technical solutions.
 
 ---
 
 ## 🔍 Currently Exploring
 
 - Full-stack application architecture
-- AI-powered SaaS
-- DevOps & cloud infrastructure
-- Automation
-- APIs & integrations
-- Database design
-- Building and launching products
+- AI-powered SaaS products
+- DevOps & cloud infrastructure optimization
+- Workflow automation at scale
+- APIs & third-party integrations
+- Database design for performance
+- Building and launching products from 0→1
 
-Particularly interested in: **AI + SaaS + automation + practical software engineering**
+**Particularly interested in:** AI + SaaS + automation + practical software engineering
 
 ---
 
@@ -161,9 +164,9 @@ A lot of my development journey has been about taking something I don't understa
 
 **Some projects worked. Some didn't. Some disappeared completely.**
 
-But every one of them taught me something.
+But every one of them taught me something valuable about building software, solving problems, and shipping products.
 
-**The goal now is simple: build better things, document them properly, and keep getting better.**
+**The goal now is simple: build better things, document them properly, and keep getting better every single day.**
 
 ---
 
@@ -173,12 +176,15 @@ But every one of them taught me something.
 **Location:** Johannesburg, South Africa  
 **GitHub:** [@Gift-Mpofu](https://github.com/Gift-Mpofu)
 
+Looking to build something? Have a project in mind? Let's talk.
+
 ---
 
 ## 📊 GitHub Stats
 
-Check out my repositories and contributions on [GitHub](https://github.com/Gift-Mpofu).
+Explore my repositories and contributions: [github.com/Gift-Mpofu](https://github.com/Gift-Mpofu)
 
 ---
 
-> **Build. Break. Learn. Rebuild.**
+> **Build. Break. Learn. Rebuild.**  
+> *Last Updated: September 2026*
