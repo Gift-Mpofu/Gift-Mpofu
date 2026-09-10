@@ -1,190 +1,219 @@
-# 👤 Gift Mpofu - Developer Portfolio
+# E-JobFinder 🚀
 
-> Full Stack Developer • DevOps • Systems • AI & SaaS  
-> *Building things that actually solve problems*
+A modern, AI-powered job finder application built with Next.js and TypeScript. E-JobFinder leverages Google Genkit AI to help users discover, explore, and apply for jobs intelligently.
 
-## 🌟 About Me
+## Overview
 
-I'm a **BSc IT graduate from South Africa** who loves taking ideas from "*someone should build this*" to reality.
+E-JobFinder is a full-stack web application designed to revolutionize the job search experience. Using advanced AI capabilities and a beautiful, responsive UI, it provides users with personalized j[...] 
 
-I started my career on the **business and sales side of technology**, working with SaaS products and clients across the GCC. That hands-on experience pushed me deeper into technology — from ideation through implementation, deployment, and operations.
+## Key Features
 
-Today, I work across **software development, systems administration, cloud, automation, and AI**, with a particular interest in building products that solve real problems and scale.
+- 🤖 **AI-Powered Job Matching** - Uses Google Genkit AI for intelligent job recommendations
+- 📱 **Fully Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- 🎨 **Beautiful UI Components** - Built with Radix UI and Tailwind CSS
+- 🔐 **Secure Authentication** - Integrated with Supabase for user authentication and data management
+- 📊 **Advanced Analytics** - Visualize job trends and statistics with Recharts
+- 🌙 **Dark Mode Support** - Theme switching with next-themes
+- 📄 **PDF Support** - Resume upload and processing capabilities
+- ⚡ **High Performance** - Built with Next.js 15+ and Turbopack for blazing fast builds
+- 🎯 **Form Validation** - Robust form handling with React Hook Form and Zod validation
 
-I don't limit myself to one box. If a problem needs a frontend, I'll build it. If it needs an API, database, or automation pipeline, I'll figure it out. If the system breaks, I'll troubleshoot it.
-
-**Basically: I like figuring shit out and building things that work.**
-
----
-
-## 🚀 What I Build
-
-- Full-stack web applications
-- SaaS products and internal business tools
-- REST APIs & database-driven systems
-- CRM systems & sales automation
-- AI-powered applications
-- Data enrichment & automation pipelines
-- Cloud-based applications
-- DevOps & deployment workflows
-- Systems and IT infrastructure
-
----
-
-## 💻 Tech Stack
-
-### Languages
-JavaScript • Python • SQL • HTML • CSS • TypeScript
+## Tech Stack
 
 ### Frontend
-React • Tailwind CSS • shadcn/ui • Webflow
+- **Framework**: Next.js 15.5.9
+- **Language**: TypeScript 5
+- **UI Components**: Radix UI
+- **Styling**: Tailwind CSS
+- **State Management**: React Hook Form
+- **Form Validation**: Zod
+- **Charts & Visualizations**: Recharts
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Theme Management**: next-themes
 
-### Backend & Databases
-Node.js • REST APIs • Supabase • Firebase • PostgreSQL • SQL
+### Backend & Services
+- **AI Engine**: Google Genkit AI (@genkit-ai/google-genai)
+- **Backend Integration**: Genkit + Next.js (@genkit-ai/next)
+- **Database & Auth**: Supabase (PostgreSQL)
+- **PDF Processing**: pdfjs-dist
 
-### Cloud & DevOps
-Cloud application development • Deployment • Hosting • CI/CD • Git/GitHub
+### Development
+- **Build Tool**: Next.js with Turbopack
+- **Linting**: ESLint via Next.js
+- **Package Manager**: npm/yarn
 
-### AI & Automation
-AI API integration • AI-powered applications • Workflow automation • API integrations
+## Getting Started
 
-### Tools & Platforms
-GitHub • VS Code • Postman • Base44 • Apollo.io • Zapier • Microsoft 365
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+- Supabase account
+- Google Cloud account (for Genkit AI)
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Gift-Mpofu/E-jobfinder.git
+cd E-jobfinder
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Set up environment variables**
+Create a `.env.local` file in the root directory:
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
+GENKIT_API_KEY=your_google_genkit_key
+```
+
+4. **Run the development server**
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Project Structure
+
+```
+E-jobfinder/
+├── src/
+│   ├── app/                    # Next.js app directory
+│   │   ├── page.tsx           # Home page
+│   │   └── layout.tsx         # Root layout
+│   ├── components/            # Reusable React components
+│   ├── lib/                   # Utility functions
+│   └── styles/                # Global styles
+├── public/                    # Static assets
+├── package.json              # Dependencies and scripts
+├── tailwind.config.ts        # Tailwind CSS configuration
+├── tsconfig.json             # TypeScript configuration
+└── next.config.ts            # Next.js configuration
+```
+
+## Available Scripts
+
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Start development server with Turbopack |
+| `npm run build` | Build for production |
+| `npm start` | Start production server |
+| `npm run lint` | Run ESLint |
+
+## Core Functionality
+
+### Job Discovery
+- Browse and search job listings
+- AI-powered job recommendations based on user profile
+- Advanced filtering options
+
+### User Profiles
+- Create and manage user profiles
+- Upload and parse resumes (PDF support)
+- Track application history
+
+### AI Integration
+- Intelligent job matching using Google Genkit
+- Smart job recommendations
+- Personalized insights
+
+### Data Management
+- Secure user authentication via Supabase
+- Real-time data synchronization
+- Job listings and application tracking
+
+## Dependencies Overview
+
+### UI & Components
+- Radix UI provides accessible, unstyled component primitives
+- Tailwind CSS for utility-first styling
+- Shadcn-style component architecture
+
+### Forms & Validation
+- React Hook Form for efficient form management
+- Zod for runtime type validation
+
+### Data & Visualization
+- Recharts for interactive charts and analytics
+- date-fns for date manipulation
+
+### Development Experience
+- TypeScript for type safety
+- Next.js 15 with App Router
+- Turbopack for faster builds
+
+## Configuration
+
+### Tailwind CSS
+Configured in `tailwind.config.ts` with custom theming support and animation utilities.
+
+### TypeScript
+Strict mode enabled for better type safety. See `tsconfig.json` for details.
+
+### Next.js
+- App Router enabled
+- Turbopack bundler for faster development
+- Image optimization
+- Automatic code splitting
+
+## Deployment
+
+### Build for Production
+```bash
+npm run build
+npm start
+```
+
+### Deploy to Vercel (Recommended)
+```bash
+vercel deploy
+```
+
+Ensure environment variables are configured in your deployment platform.
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Code Quality
+
+- Maintain TypeScript strict mode
+- Follow Next.js best practices
+- Use Tailwind CSS utilities for styling
+- Write accessible components using Radix UI
+- Validate forms with Zod schemas
+
+## Troubleshooting
+
+### Development Server Issues
+```bash
+# Clear cache and reinstall
+rm -rf node_modules .next
+npm install
+npm run dev
+```
+
+### Build Issues
+Ensure all environment variables are properly set and Supabase/Genkit credentials are valid.
+
+## License
+
+This project is private. All rights reserved.
+
+## Contact & Support
+
+For issues, questions, or suggestions, please open an issue on GitHub or contact the repository owner.
 
 ---
 
-## 📂 Open Source Projects
-
-### 👻 [GhostVault](https://github.com/Gift-Mpofu/GhostVault)
-A secure, modern TypeScript-based application for managing and storing sensitive information with an intuitive user interface.
-
-**Built with:** TypeScript (81.7%), CSS (14.8%), JavaScript (2.3%), HTML (1.2%)  
-**Repository:** [github.com/Gift-Mpofu/GhostVault](https://github.com/Gift-Mpofu/GhostVault)
-
----
-
-### 🏠 [Gold City Property Services](https://github.com/Gift-Mpofu/Gold-City-Property-Services)
-Professional property service solutions website showcasing expertise in real estate management and customer-centric services.
-
-**Built with:** HTML, CSS, JavaScript  
-**Live:** [https://gift-mpofu.github.io/Gold-City-Property-Services/](https://gift-mpofu.github.io/Gold-City-Property-Services/)  
-**Repository:** [github.com/Gift-Mpofu/Gold-City-Property-Services](https://github.com/Gift-Mpofu/Gold-City-Property-Services)
-
----
-
-### 💼 [Mandisa Portfolio](https://github.com/Gift-Mpofu/mandisa-portfolio)
-A professional portfolio website showcasing work, skills, and achievements in an elegant and modern design.
-
-**Built with:** HTML, CSS, JavaScript  
-**Live:** [https://gift-mpofu.github.io/mandisa-portfolio/](https://gift-mpofu.github.io/mandisa-portfolio/)  
-**Repository:** [github.com/Gift-Mpofu/mandisa-portfolio](https://github.com/Gift-Mpofu/mandisa-portfolio)
-
----
-
-### 💼 [Mandisa Portfolio Live](https://github.com/Gift-Mpofu/mandisa-portfolio-live)
-The live, production version of the professional portfolio website with continuous deployment.
-
-**Built with:** HTML, CSS, JavaScript  
-**Live:** [https://gift-mpofu.github.io/mandisa-portfolio-live/](https://gift-mpofu.github.io/mandisa-portfolio-live/)  
-**Repository:** [github.com/Gift-Mpofu/mandisa-portfolio-live](https://github.com/Gift-Mpofu/mandisa-portfolio-live)
-
----
-
-## 🏆 Notable Work & Case Studies
-
-### VelocityCRM - B2B Sales Operations Platform
-A custom CRM and sales operations platform built for a B2B sales outsourcing environment. This was a comprehensive system transformation project where I took business requirements and translated them into working, scalable systems.
-
-**Key Responsibilities:**
-- Prospect management system design and implementation
-- Apollo.io enrichment pipeline integration
-- Engagement tracking and analytics
-- Data quality tooling and validation
-- Company deduplication and data normalization
-
-**Built with:** Base44 • JavaScript • Apollo.io • REST APIs • SQL • Webflow  
-**Impact:** Streamlined sales operations for multi-person teams, improved data quality by 85%, reduced manual data entry by 70%
-
-> *Production code and company data are private, so documentation focuses on architecture, engineering decisions and sanitized examples.*
-
----
-
-### E-JobFinder - AI-Powered Job Discovery Platform
-An AI-powered job discovery and matching platform built around a core insight: **"How can we make finding the right job less painful?"**
-
-The platform combines intelligent job discovery, advanced filtering, and AI-assisted matching to help users find opportunities that genuinely fit their skills and experience.
-
-**Key Features:**
-- Smart job discovery and search
-- AI-powered job matching algorithm
-- Skills-based filtering and recommendations
-- Personalized job alerts
-
-**Built with:** JavaScript • Firebase • AI/API Integration  
-**Repository:** Coming soon  
-**Status:** Active Development
-
----
-
-## 🧠 How I Think
-
-I enjoy working at the intersection of **technology and business** because that's where real value gets created.
-
-I don't just want to know *how* to build something. I want to understand:
-
-- **Why** are we building it?
-- **Who** is it helping?
-- **What problem** does it solve?
-- **Can it actually scale?**
-- **Can we automate it?**
-
-My background in sales has become one of my biggest advantages as a developer. I'm comfortable talking to non-technical people, understanding business problems deeply, and translating those problems into elegant technical solutions.
-
----
-
-## 🔍 Currently Exploring
-
-- Full-stack application architecture
-- AI-powered SaaS products
-- DevOps & cloud infrastructure optimization
-- Workflow automation at scale
-- APIs & third-party integrations
-- Database design for performance
-- Building and launching products from 0→1
-
-**Particularly interested in:** AI + SaaS + automation + practical software engineering
-
----
-
-## 📚 My Philosophy
-
-I'm a developer who is still learning — but I'm not afraid of that.
-
-A lot of my development journey has been about taking something I don't understand, breaking it down, researching it, building it, and eventually getting it to work.
-
-**Some projects worked. Some didn't. Some disappeared completely.**
-
-But every one of them taught me something valuable about building software, solving problems, and shipping products.
-
-**The goal now is simple: build better things, document them properly, and keep getting better every single day.**
-
----
-
-## 🤝 Let's Connect
-
-**Email:** [giftmpofud@gmail.com](mailto:giftmpofud@gmail.com)  
-**Location:** Johannesburg, South Africa  
-**GitHub:** [@Gift-Mpofu](https://github.com/Gift-Mpofu)
-
-Looking to build something? Have a project in mind? Let's talk.
-
----
-
-## 📊 GitHub Stats
-
-Explore my repositories and contributions: [github.com/Gift-Mpofu](https://github.com/Gift-Mpofu)
-
----
-
-> **Build. Break. Learn. Rebuild.**  
-> *Last Updated: September 2026*
+**E-JobFinder** - Making job searching smarter with AI 🎯
