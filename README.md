@@ -12,13 +12,18 @@ I sit where sales operations meet software. At Velocity I run the business side 
 
 ## 🛠️ What I've built
 
-### Velocity CRM: internal sales platform *(private, company code)*
-A CRM built for an outbound SDR team, used every day.
-- **SDR Performance Hub & personal dashboards** with insights and next actions, not just charts
-- **Comment-reading automation**: scans SDR notes (e.g. "follow up end of October") to surface late follow-ups and flag do-not-call prospects for review
-- **No-go list** per campaign, imported from Excel and built into the CRM
-- **Payroll module**: admin-only payslip editor, publish flow and automatic payslip emails to each SDR
-- Role-based access (admin / SDR / client), pipeline value rules, and groundwork for phone auto-dialling
+### Velocity CRM: internal sales platform *(private, company code · v2.6)*
+A full CRM for an outbound SDR team, built on Base44 with Apollo integrations and used daily. **Results:**
+- ⚡ **Data Quality page load cut from ~8–10s to ~1.5s**, and data downloaded per load from **14.8 MB to 0.23 MB** (server-side pagination and caching)
+- 🧹 **Deduplicated the company database from 5,889 to 3,979 records** (1,910 duplicates merged, zero orphaned prospects), with duplicate prevention built in
+- 🔎 **Bulk Apollo enrichment of 3,361 prospects** through a batched queue with credit estimates, now running weekly on a schedule
+- 🎯 **Nightly "conversion fit" scoring** that learns from 600+ booked meetings which industries, titles, company sizes and countries convert per campaign, then badges the top 20% of prospects
+- 📬 **Apollo engagement sync** across 18 email sequences: replies automatically mark leads Hot and update weekly SDR reporting
+- 🐛 Fixed a 5,000-record API cap that was hiding 1,000+ of 6,077 prospects from SDR call lists
+- 🚫 **No-go list** that flags and blocks calls to excluded companies, plus a **Dead List** that isolates 500+ unreachable contacts
+- 🧠 **Comment-reading follow-ups**: turns SDR notes like "end of October" into due dates, plus automatic meeting-outcome reminders
+- 📊 **SDR Performance Hub** (Overview, Activity, Pipeline, Trends, Coaching) with an action line under every chart, and an automated **Friday team-wrap email**
+- 💸 **Payroll module**: admin-only payslip editor, publish flow and automatic payslip emails to each SDR
 
 ### TrustVest: AI investing app *(private)*
 An AI-assisted investing app with a **hash-chain ledger** that makes transaction history tamper-evident.
@@ -43,7 +48,7 @@ Active development continues on [@jordanhellsent-dev](https://github.com/jordanh
 ## 🧰 Toolkit
 
 **Build:** TypeScript · React · Next.js · Astro · Tailwind CSS · HTML/CSS  
-**Data & backend:** Supabase · PostgreSQL · Zod  
+**Data & backend:** Supabase · PostgreSQL · Base44 · Apollo API · Zod  
 **AI:** Google Genkit · LLM integrations · AI-assisted development (Claude, Bolt, Leap)  
 **Web & growth:** Webflow · SEO · Google Ads · Google Business Profile  
 **Business tools:** Microsoft 365 · SharePoint · Excel · CRM design
