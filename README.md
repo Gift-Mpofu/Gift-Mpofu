@@ -5,7 +5,8 @@
 I sit where sales operations meet software. At Velocity I run the business side (SDR team, payroll, client delivery), and I also build the tools that make it work: a custom CRM, performance dashboards, payroll automation and the company websites. I like software that tells people **what to do next**, not just software that looks nice.
 
 🟢 **Open to work:** full-stack / internal-tools developer, automation, web & SEO, or sales-ops roles (remote or Johannesburg).  
-📧 giftmpofud@gmail.com
+📧 giftmpofud@gmail.com  
+💻 I also build on my second account: [@jordanhellsent-dev](https://github.com/jordanhellsent-dev)
 
 ---
 
@@ -24,7 +25,8 @@ An AI-assisted investing app with a **hash-chain ledger** that makes transaction
 
 ### [E-JobFinder](https://github.com/Gift-Mpofu/E-jobfinder)
 An AI-powered job discovery platform: smart job recommendations, résumé parsing and job tracking.  
-`Next.js 15` `TypeScript` `Google Genkit` `Supabase` `Tailwind CSS`
+`Next.js 15` `TypeScript` `Google Genkit` `Supabase` `Tailwind CSS`  
+Active development continues on [@jordanhellsent-dev](https://github.com/jordanhellsent-dev).
 
 ### Client websites
 - **Lebudi Attorneys**: law-firm website built with Astro *(private client repo)*
