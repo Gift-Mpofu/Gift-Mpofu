@@ -29,7 +29,8 @@ A full CRM for an outbound SDR team, built on Base44 with Apollo integrations an
 An AI-assisted investing app with a **hash-chain ledger** that makes transaction history tamper-evident.
 
 ### [E-JobFinder](https://github.com/Gift-Mpofu/E-jobfinder)
-An AI-powered job discovery platform: smart job recommendations, résumé parsing and job tracking.  
+🌐 **[Live demo](https://e-jobfinder-mu.vercel.app/)**  
+An AI-powered job-matching tool for South Africa: extracts skills from your CV, ranks live job listings by compatibility and helps you prepare tailored applications.  
 `Next.js 15` `TypeScript` `Google Genkit` `Supabase` `Tailwind CSS`  
 Active development continues on [@jordanhellsent-dev](https://github.com/jordanhellsent-dev).
 
